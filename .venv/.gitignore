@@ -1,0 +1,19 @@
+# created by virtualenv automatically
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Env
+.env
+venv/
+ENV/
+.env.*.local
+
+# IDE
+.idea/
+
+# OS
+.DS_Store

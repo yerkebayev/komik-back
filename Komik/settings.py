@@ -131,3 +131,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 STATIC_URL = '/static/'
 STATIC_ROOT = '/var/www/komik-static/'
+
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://komik.kz",
+    "https://www.komik.kz",  # optional, if using www version too
+]
